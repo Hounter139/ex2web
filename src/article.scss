@@ -1,0 +1,67 @@
+@use "@material/fab";
+@include fab.core-styles;
+
+ul.ListeDossiers{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    > li{
+        list-style: none;
+        margin: 8px;
+       
+    }
+    
+}
+article{
+    background-color: yellow;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.637);
+    
+    >button{
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        background-color: transparent;
+        border:none;
+        color:white;
+        border: none;
+        
+        
+        
+    }
+    
+   
+}
+.deplacer{
+    position:absolute; 
+    margin-left:7px;
+    margin-top: 7px;
+  
+    >.MuiSvgIcon-root{
+         font-size: 40px;
+         color: rgba(255, 255, 255, 0.514);
+         background-color: rgba(0, 0, 0, 0.575);
+         border-radius: 100%;
+         padding: 4px;
+        
+    
+   }
+}
+
+.mdc-fab{
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgb(44, 44, 44);
+    font-size: 30px;
+    
+}
+div.info{
+    padding-left: 13px;
+}
+
+
